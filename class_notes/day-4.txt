@@ -1,0 +1,97 @@
+buttons in bootStrap
+=======================
+    1) btn
+
+    2) btn-*    *=> * means colors(out of 8 any color we can use )
+
+==============================================================================================================
+container ==> left side and right side margin
+
+margin
+------
+    mt-5  ==> margin top
+    mb-5 ==> margin bottom
+    mr-5 ==> margin right
+    ml-5 ==> margin left
+
+==============================================================================================================
+
+change the button background color with some style
+--------------------------------------------------
+    btn btn-primary
+    btn btn-secondary
+    btn btn-success
+    btn btn-danger
+    btn btn-info
+    btn btn-light
+    btn btn-dark
+    btn btn-warning
+
+change the button outkine color and button text color (when hover on then it will fill the nutton with color)
+-----------------------------------------------------
+    btn btn-outline-primary
+    btn btn-outline-secondary
+    btn btn-outline-success
+    btn btn-outline-danger
+    btn btn-outline-info
+    btn btn-outline-light
+    btn btn-outline-dark
+    btn btn-outline-warning
+
+to see the large button(means height and width will be increase)
+-----------------------------------------------------
+    btn btn-primary btn-lg
+    btn btn-secondary btn-lg
+    btn btn-success btn-lg
+    btn btn-danger btn-lg
+    btn btn-info btn-lg
+    btn btn-light btn-lg
+    btn btn-dark btn-lg
+    btn btn-warning btn-lg
+
+to see the small button(heigt and width will be decrease)
+-----------------------------------------------
+    btn btn-primary btn-sm
+    btn btn-secondary btn-sm
+    btn btn-success btn-sm
+    btn btn-danger btn-sm
+    btn btn-info btn-sm 
+    btn btn-light btn-sm
+    btn btn-dark btn-sm
+    btn btn-warning btn-sm
+
+ how to diasabled the button(we have to write disabled class name outside the double quotes)
+ ----------------------------(it means we cannot click on that button)
+    "btn btn-primary" disabled
+    "btn btn-secondary" disabled
+    "btn btn-success" disabled
+    "btn btn-danger" disabled
+    "btn btn-info" disabled
+    "btn btn-light" disabled
+    "btn btn-dark" disabled
+    "btn btn-warning" disabled
+
+How can i occupy all the width using button(but we have to apply this on div not button inside div you can put button)
+(it is block level)
+-------------------------------------------
+    "d-grid gap-2"(gap-2 means getween 2 button gap is 2mm)
+
+group of buttons(combine multiple buttons)
+------------------------------------------
+class is ==> btn-group (same apply on div not directly button)
+ex:
+        <div class="btn-group">
+            <button class="btn btn-primary">Left</button>
+            <button class="btn btn-danger">Middle</button>
+            <button class="btn btn-primary">Right</button>
+        </div>
+
+by default one button active/autofocus
+---------------------------------------
+    active
+
+EX: <button class="btn btn-warning active">1</button>
+
+checkbox (select more than one button at a atime)
+-------------------------------------------------
+EX: <input type="checkbox" class="btn-check" id="btnchech-1">

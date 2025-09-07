@@ -129,3 +129,8 @@ how to push the code in git
 
 link git ---> https://github.com/Anighogre/BootStrap.git
 
+
+---------------------------------------------------- continue push
+> git add .
+> git commit -m "code"
+> git push

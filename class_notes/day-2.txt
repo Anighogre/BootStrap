@@ -46,14 +46,14 @@ colors supported by bootStrap
 Test color and background colors
 =====================================
     
-    1) primary
-    2) secondary
-    3) success
-    4) info
-    5) warning
-    6) danger
-    7) light
-    8) dark
+    1) primary => (text-primary)
+    2) secondary => (text-secondary)
+    3) success => (text-success)
+    4) info => (text-info)
+    5) warning => (text-warning)
+    6) danger => (text-danger)
+    7) light => (text-light)
+    8) dark => (text-dark)
 
 EX:
         <p>This is <span class="text-primary bg-success">primary</span> text</p>
