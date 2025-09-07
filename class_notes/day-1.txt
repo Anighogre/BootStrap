@@ -114,4 +114,18 @@ Download by using yarn tool
 
 > yarn add bootstarp
 
+how to push the code in git
+===========================
+
+> npx gitignore node
+> y
+> git init
+> git add .
+> git commit -m "BootStrap Class_1"
+> git remote add origin https://github.com/Anighogre/BootStrap.git
+> git branch --> if it return * main  > git push -u origin main
+> git branch --> if it return * master > git push -u origin master
+                
+
+link git ---> https://github.com/Anighogre/BootStrap.git
 

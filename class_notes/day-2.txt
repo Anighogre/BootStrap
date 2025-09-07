@@ -1,0 +1,66 @@
+bootStrap prvides so many predefined classes
+===============================================
+
+    h1         -------      h6
+
+    display-1  -------      displa-4
+
+    lead class
+
+    text-muted class
+
+    EX:
+
+    <!-- h1         -------      h6  class -->
+
+    <p class="h1">Paragraph-1</p>
+    <p class="h2">Paragraph-2</p>
+    <p class="h3">Paragraph-3</p>
+    <p class="h4">Paragraph-4</p>
+    <p class="h5">Paragraph-5</p>
+    <p class="h6">Paragraph-6</p>
+
+
+    <!-- display-1  -------      displa-4 class -->
+
+    <p class="display-1">Display-1</p>
+    <p class="display-2">Display-2</p>
+    <p class="display-3">Display-3</p>
+    <p class="displa-4">Display-4</p>
+
+
+    <!-- lead class -->
+
+    <p>This is <span class="lead">lead </span> text</p>
+
+
+    <!-- muted text -->
+
+    <p>This is the <span class="text-muted">muted </span> text</p>
+
+***************************************************************************************************************
+
+colors supported by bootStrap
+ ------------------------------------
+
+Test color and background colors
+=====================================
+    
+    1) primary
+    2) secondary
+    3) success
+    4) info
+    5) warning
+    6) danger
+    7) light
+    8) dark
+
+EX:
+        <p>This is <span class="text-primary bg-success">primary</span> text</p>
+        <p>This is <span class="text-secondary bg-danger">secondary</span> text</p>
+        <p>This is <span class="text-success bg-info">success</span> text</p>
+        <p>This is <span class="text-info bg-dark">info</span> text</p>
+        <p>This is <span class="text-warning bg-light">warning</span> text</p>
+        <p>This is <span class="text-danger bg-primary">danger</span> text</p>
+        <p>This is <span class="text-light bg-secondary">light</span> text</p>
+        <p>This is <span class="text-dark bg-warning">dark</span> text</p>
